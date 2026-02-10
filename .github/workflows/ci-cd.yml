@@ -1,4 +1,4 @@
-name: CI/CD Pipeline
+name: Next.js CI/CD
 
 on:
   pull_request:
@@ -25,11 +25,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Run format Checkout
+      - name: Run Prettier check
         run: pnpm run format:check
 
-      - name: Run lint
+      - name: Run ESLint
         run: pnpm run lint
 
-      - name: Build Next.js app
+      - name: Build Next.js
         run: pnpm run build
