@@ -1,0 +1,37 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# build outputs
+dist
+build
+out
+.next
+coverage
+
+# env files
+.env
+.env.*
+!.env.example
+
+# lock files (optional – your choice)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# logs
+*.log
+
+# cache
+.cache
+
+# public assets (optional)
+public
+
+# generated files
+*.min.js
+*.min.css
+
+# config files you usually don't format
+.next.config.js
