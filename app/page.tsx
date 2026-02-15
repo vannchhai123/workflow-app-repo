@@ -18,7 +18,7 @@ export default function LandingPage() {
       </header>
 
       <section className="flex flex-col items-center justify-center px-6 py-24 text-center">
-        <h2 className="text-4xl leading-tight font-bold md:text-5xl">
+        <h2 className="text-4xl leading-tight font-bold text-gray-600 md:text-5xl">
           Manage Your Finance <br />
           Smart & Simple
         </h2>
@@ -38,14 +38,14 @@ export default function LandingPage() {
 
           <a
             href="/login"
-            className="rounded-lg border px-6 py-3 text-lg hover:bg-gray-50"
+            className="rounded-lg border px-6 py-3 text-lg text-gray-600 hover:bg-gray-50"
           >
             Login
           </a>
         </div>
       </section>
 
-      <section className="bg-gray-50 px-8 py-20">
+      <section className="bg-gray-50 px-8 py-20 text-gray-600">
         <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-3">
           <Feature
             title="Track Transactions"
