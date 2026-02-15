@@ -1,4 +1,4 @@
-name: Next.js CI/CD
+name: Next CI/CD
 
 on:
   pull_request:
